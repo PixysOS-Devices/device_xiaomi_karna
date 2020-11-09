@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_karna.mk
+    $(LOCAL_DIR)/pixys_karna.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_karna-user \
-    havoc_karna-userdebug \
-    havoc_karna-eng
+    pixys_karna-user \
+    pixys_karna-userdebug \
+    pixys_karna-eng

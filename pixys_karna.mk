@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/karna/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_karna
+PRODUCT_NAME := pixys_karna
 PRODUCT_DEVICE := karna
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CI
@@ -20,4 +20,5 @@ BUILD_FINGERPRINT := POCO/karna_in/karna:10/QKQ1.200512.002/V12.0.5.0.QJGINXM:us
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-HAVOC_BUILD_TYPE := Official
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
